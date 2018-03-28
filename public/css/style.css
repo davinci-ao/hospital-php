@@ -1,0 +1,80 @@
+
+body {
+    margin : 0 auto;
+    width : 80vw;
+}
+
+table {
+    width : 700px;
+}
+
+table, td, th {
+    border : 1px #ddd solid;
+    border-collapse : collapse;
+    background-color: #ccc;
+    color : black;
+}
+
+td, th {
+    padding : 2px;
+}
+
+th {
+    text-align : left;
+}
+
+td.center{
+    text-align : center;
+}
+
+a {
+    color : black;
+}
+p.options{
+    text-align : right;
+}
+
+label {
+    display : inline-block;
+    width : 100px;
+}
+form div {
+    margin: 5px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: #555;
+}
+
+th:hover:not(.notSortable) {
+    cursor: pointer;
+}
